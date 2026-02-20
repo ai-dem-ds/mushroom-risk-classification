@@ -5,7 +5,7 @@
 The Objective of this project is to build a supervised classification model that distingusishes between **edible** and **poisonous** mushrooms. 
 
 Instead of maximizing accuracy, the goal is:  
-> Guarantee that  **no poisonous mushroom is classified as edible** (zero flase negatives). 
+> Guarantee that  **no poisonous mushroom is classified as edible** (zero false negatives). 
 
 This makes the problem risk-sensitive rather than accuracy-driven. 
 
@@ -32,7 +32,7 @@ This makes the problem risk-sensitive rather than accuracy-driven.
 - Pipeline Intergration 
 
 ### 3. Model 
-- Logistig Regression (inside Pipeline) 
+- Logistic Regression (inside Pipeline) 
 
 ### 4. Advanced Classification Strategy 
 - Used `predict_proba()` instead of `predict()`
@@ -52,7 +52,7 @@ Using a conservative threshold:
 
 ---
 
-## Key Insights. 
+## Key Insights 
   
 This Project demonstrates:  
 
